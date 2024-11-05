@@ -1,0 +1,160 @@
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+    color: white;
+    font-size: 50%;
+    
+}
+ body {
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 2;
+ }
+
+ .section1{
+    display: flex;
+    justify-content: center;
+    padding: 20rem;
+    flex-wrap: wrap;
+}
+
+.foto{
+  border-radius: 50%;
+  width: 40rem;
+  height: 40rem;
+  margin-right: 20rem;
+}
+
+.titulo{
+    font-size: 5rem;
+    margin: 0;
+   
+}
+
+.subtitulo {
+    font-size: 3.5rem;
+}
+
+@media (max-width: 768px) {}
+.nav-links{
+    font-family: Bebas Neue, sans-serif;
+    padding: 1rem 7rem;
+    display: flex;
+    gap: 2rem;
+    font-size: 2.5rem;
+    top: 0;
+    margin-left: 80%;
+}
+
+.nav-links a {
+    color:white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+   transform: scale(1.2);
+}
+
+.leticia2 {
+    background-color:#7A577A;
+    padding: 40px;
+    font-size: 2rem; 
+    text-align: justify;
+}
+
+.leticia2 p {
+    font-size: 3.5rem;
+    max-width: 800px;
+    margin: 1rem auto;
+} 
+
+.button {
+    background-color: #7A577A;
+    padding: 1rem 5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+@media (max-width: 1024px) {}
+    .foto {
+        width: 30rem;
+        height: 30rem;
+        margin-right: 10rem;
+    } 
+
+    .social-icon {
+        width: 40px; 
+        height: 40px;
+        margin-bottom: 3rem;
+        display: flex;
+        
+    }
+
+    .social-icon:hover {
+        transform: scale(1.2);
+    }
+    
+  
+/* Seção de projetos */
+.projects-section {
+    padding: 4rem;
+    font-size: 2rem;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.project-card {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 280px;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    margin-top: 1rem;
+}
+
+.project-link {
+    display: inline-block;
+    background-color: #7A577A;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    margin-top: 1rem;
+    text-decoration: none;
+    
+}
+
+.projects-section a {
+    font-size: 13px;
+}
+
+.projects-section p {
+    font-size: 2rem;
+}
+.project-link:hover {
+    transform: scale(1.2);
+}
+
+
+
+
